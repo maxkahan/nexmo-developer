@@ -4,8 +4,15 @@ page:
       - type: header
         header:
           title:
-            text: Vonage ❤️ Community
+            text: Vonage Developer Community
             align: center
+  - row:
+    - column:
+      - type: text
+        text:
+          content: |
+            <p class="Vlt-center">Have questions, a big idea, or something to share? Our community is designed to help you thrive.</p>
+            <br><br>
   - row:
     - column:
       - type: section_header
@@ -17,23 +24,86 @@ page:
   - row:
     - column:
       - type: events
+
+  - row:
+    - column:
+      - type: text
+        text:
+          content: |
+            <div class="Vlt-grid">
+              <div class="Vlt-col Vlt-bg-grey-lighter" style="padding: 32px;">
+                <h2 style="margin-bottom: 0;" class="Vlt-center Vlt-black">Community Resources</h2>
+              </div>
+            </div>
+
+  - row:
+    - column:
+      - type: text
+        text:
+          content: |
+            <div class="Vlt-grid ">
+              <div class="Vlt-col Vlt-col--1of2 Vlt-margin--A-top4">
+                <div class="Vlt-card Vlt-card--clickable">
+                  <h3 class="Vlt-center Vlt-black">Developer Blog</h3>
+                  <p class="Vlt-center"> <svg class="Vlt-icon--largest"><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-books-full"></use></svg></p>
+                </div>
+              </div>
+              <div class="Vlt-col Vlt-col--1of2 Vlt-margin--A-top4">
+                <div class="Vlt-card Vlt-card--clickable">
+                  <h3 class="Vlt-center Vlt-black">Developer Videos</h3>
+                  <p class="Vlt-center"> <svg class="Vlt-icon--largest"><use xlink:href="/symbol/volta-brand-icons.svg#Brand-icon-youtube"></use></svg></p>
+                </div>
+              </div>
+            </div>
   - row:
     - column:
       - type: line_divider
+      - type: join_slack
+      - type: line_divider
+
   - row:
     - column:
-      - type: section_header
-        section_header:
-          title: "Video Resources"
-          icon:
-            name: icon-video
-            color: blue
+      - type: text
+        text:
+          content: |
+            <div class="Vlt-grid ">
+              <div class="Vlt-col Vlt-col--1of3 Vlt-margin--A-top4">
+                <div class="Vlt-card Vlt-card--clickable">
+                  <h3 class="Vlt-center Vlt-black">Stackoverflow</h3>
+                  <p class="Vlt-center"> <svg class="Vlt-icon--largest"><use xlink:href="/symbol/volta-brand-icons.svg#Brand-icon-stackoverflow"></use></svg></p>
+                </div>
+              </div>
+              <div class="Vlt-col Vlt-col--1of3 Vlt-margin--A-top4">
+                <div class="Vlt-card Vlt-card--clickable">
+                  <h3 class="Vlt-center Vlt-black">GitHub</h3>
+                  <p class="Vlt-center"> <svg class="Vlt-icon--largest"><use xlink:href="/symbol/volta-brand-icons.svg#Brand-icon-github"></use></svg></p>
+                </div>
+              </div>
+              <div class="Vlt-col Vlt-col--1of3 Vlt-margin--A-top4">
+                <div class="Vlt-card Vlt-card--clickable">
+                  <h3 class="Vlt-center Vlt-black">Developer Spotlight</h3>
+                  <p class="Vlt-center"> <svg class="Vlt-icon--largest"><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-light-bulb-full"></use></svg></p>
+                </div>
+              </div>
+            </div>
   - row:
     - column:
-      - type: sessions
+      - type: text
+        text:
+          content: |
+            <div class="Vlt-grid">
+              <div class="Vlt-col Vlt-margin--A-top4 Vlt-margin--A-bottom4">
+                <a target="_blank" href="https://developer.vonage.com/team">
+                  <u><h2 class="Vlt-center Vlt-black">Meet Our Team</h2></u>
+                  <p class="Vlt-center"><img src="/images/devrel-heart.png" alt="DevRel Team Heart"></p>
+                </a>
+
+              </div>
+            </div>
   - row:
     - column:
       - type: line_divider
+
   - row:
     - column:
       - type: contact_community
@@ -47,9 +117,5 @@ page:
       - type: html
         html:
           content: <a class="twitter-timeline" data-width="100%" data-height="300" data-dnt="true" href="https://twitter.com/VonageDev?ref_src=twsrc%5Etfw">Tweets by VonageDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  - row:
-    - column:
-      - type: line_divider
-      - type: join_slack
-      - type: line_divider
+
 
