@@ -51,7 +51,7 @@ RSpec.feature 'Community', type: :feature do
       expect(page).to have_css('h3', text: 'Developer Spotlight')
 
       expect(page).to have_css('h2', text: 'Meet Our Team')
-      expect(page).to have_link('Meet Our Team', href: '/team')
+      expect(page).to have_link('Meet Our Team', href: 'https://developer.vonage.com/team')
 
       expect(page).to have_css('h4', text: video_session.title)
       expect(page).to have_xpath('.//iframe[@src="https://www.youtube.com/embed/i7EZDYYfFmc?showinfo=0"]')
