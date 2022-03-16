@@ -38,7 +38,20 @@ RSpec.feature 'Community', type: :feature do
         expect(page).to have_content(euruko.description)
       end
 
-      expect(page).to have_css('h2', text: 'Video Resources')
+      expect(page).to have_css('h2', text: 'Community Resources')
+
+      expect(page).to have_css('h3', text: 'Developer Blog')
+      expect(page).to have_css('h3', text: 'Developer Videos')
+
+      expect(page).to have_content('Join the Vonage Developer Community Slack')
+      expect(page).to have_link('Vonage Developer Community Slack', href: '/community/slack')
+
+      expect(page).to have_css('h3', text: 'Stackoverflow')
+      expect(page).to have_css('h3', text: 'GitHub')
+      expect(page).to have_css('h3', text: 'Developer Spotlight')
+
+      expect(page).to have_css('h2', text: 'Meet Our Team')
+      expect(page).to have_link('Meet Our Team', href: '/team')
 
       expect(page).to have_css('h4', text: video_session.title)
       expect(page).to have_xpath('.//iframe[@src="https://www.youtube.com/embed/i7EZDYYfFmc?showinfo=0"]')
@@ -49,13 +62,12 @@ RSpec.feature 'Community', type: :feature do
       expect(page).to have_content('Drop us an email at community[at]vonage.com')
       expect(page).to have_link('community[at]vonage.com', href: 'mailto:community@vonage.com')
       expect(page).to have_content('Your data will be treated in accordance with our')
-      expect(page).to have_link('Privacy Policy', href: 'https://www.nexmo.com/privacy-policy')
+      expect(page).to have_link('Privacy Policy', href: 'https://www.vonage.com/legal/privacy-policy/')
       expect(page).to have_content(', which sets out the rights you have in respect of your data')
 
       expect(page).to have_css('h2', text: '@VonageDev on Twitter')
 
-      expect(page).to have_content('Join the Vonage Developer Community Slack')
-      expect(page).to have_link('Vonage Developer Community Slack', href: '/community/slack')
+
     end
   end
 end
