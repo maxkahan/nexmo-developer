@@ -198,11 +198,13 @@ navigation_overrides:
         navigation_weight: 5
     code-snippets:
       navigation_weight: 6
-      voice-provider: 
+      neru-global: 
         navigation_weight: 1
+      voice-provider: 
+        navigation_weight: 2
       messages-provider: 
-        navigation_weight: 2  
-      state-provider: 
         navigation_weight: 3  
+      state-provider: 
+        navigation_weight: 4  
       scheduler-provider: 
-        navigation_weight: 4
+        navigation_weight: 5

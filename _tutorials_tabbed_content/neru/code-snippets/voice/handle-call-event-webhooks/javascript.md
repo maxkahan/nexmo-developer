@@ -8,5 +8,5 @@ menu_weight: 1
 const session = neru.createSession();
 const voice = new Voice(session);
 
-await voice.onVapiEvent("onEvent").execute();
+await voice.onVapiEvent({ vapiUUID: "uuid", callback: "onEvent" }).execute();
 ```

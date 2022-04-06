@@ -69,6 +69,7 @@ en:
     neru: NeRu
     providers: Providers
     messages-provider: Messages
+    neru-global: Global
     voice-provider: Voice
     scheduler-provider: Scheduler
     voice-provider-conversation: Conversation

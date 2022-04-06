@@ -4,9 +4,9 @@ description: How to send an Image with the Messages provider
 navigation_weight: 2
 ---
 
-# Send an Image
+# Send an Image (v0.1 Only)
 
-The Messages provider's `sendImage` function allows you to send an image using the [Messages API](/messages/overview).
+The Messages provider's `sendImage` function allows you to send an image using the [Messages API](/messages/overview). This function is for use with v0.1 of the Messages API. To send an image with v1 of the Messages API, use the [`send`](/neru/code-snippets/messages-provider/send-message#v1) function with an `image` type.
 
 ## Method Signature
 ```javascript

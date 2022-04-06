@@ -4,11 +4,24 @@ description: This documentation describes NeRu
 meta_title: NeRu
 ---
 
-# Overview (WIP)
+# Overview
 
 NeRu eliminates the need to maintain your own infrastructure to use the Vonage APIs. The platform has multiple different APIs including voice, messaging, data persistence, scheduling, and more. The flexibility of the platform is a perfect fit for building use cases such as voice and message notifications, IVRs, and chatbots.
 
-NeRu offers user friendly tooling to develop an app, including a [debugger](/neru/debugging.md), templates, and sample projects. Checkout the [Get started with NeRu](/neru/tutorials/neru-get-started) tutorial to learn more about how to begin developing with NeRu. 
+NeRu offers user friendly tooling to develop an app, including a [debugger](/neru/debugging.md), templates, and sample projects. 
+
+## Getting Started with NeRu
+
+To use NeRu you will need:
+
+* A Vonage API [Account](https://dashboard.nexmo.com/sign-up).
+* The [NeRu CLI](/neru/cli) installed.
+
+* For the Node.JS SDK:
+    * Node 16 or above installed.
+    * `nodemon` installed globally.
+
+Checkout the [Get started with NeRu](/neru/tutorials/neru-get-started) tutorial for a step by step guide that will take you from project creation to deploying! 
 
 ## Concepts
 

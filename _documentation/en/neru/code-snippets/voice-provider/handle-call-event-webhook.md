@@ -10,8 +10,15 @@ The Voice provider's `onVapiEvent` function allows you to handle call event webh
 
 ## Method Signature
 ```javascript
-onVapiEvent(callback: string)
+onVapiEvent(params: onVapiEventParams)
 ```
+
+### Types
+
+`onVapiEventParams`:
+
+* `vapiUUID` | `conversationID`: (String) Use either a VAPI call's UUID or a conversation's ID.
+* `callback`: (String) The route to be called for an incoming VAPI Event.
 
 ## Handle Call Webhooks
 
